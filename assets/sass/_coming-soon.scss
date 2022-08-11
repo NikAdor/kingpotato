@@ -1,0 +1,129 @@
+.main-header {
+    padding-top: 2.5rem;
+	padding-bottom: 7.8125rem;
+	position: relative;
+
+    a {
+        display: inline-block;
+        background-color: transparent;
+        font-weight: normal;
+        font-size: 16px;
+        color: #fff;
+        &:hover {
+            color: #fff;
+        }
+        &:focus {
+            color: #fff;
+        }
+    }
+    
+}
+
+.footer {
+	padding: 2.5rem 0;
+	text-align: center;
+	color: $color_8;
+	font-size: 1.25rem;
+	a {
+		color: $color_8;
+		&:hover {
+			color: $color_8;
+			text-decoration: underline;
+		}
+	}
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    background-color: #2A2A2A;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFF;
+    font-size: 14px;
+}
+.page {
+    &--coming-soon {
+        
+        color: #FFF;
+        .banner {
+            margin-bottom: 8.125rem;
+            h1 {
+                // font-family: 'DM Serif Display', serif;
+                font-size: 60px;
+                span {
+                    color: #ffb70f;
+                }
+            }
+        }
+        .social {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            margin-top: 2.5rem;
+            li {
+                margin-right: 15px;
+                &:alst-child {
+                    margin-right: 0;
+                }
+                &:hover {
+                    a {
+                        background-color: #000;
+                    }
+                }
+            }
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 40px;
+                height: 40px;
+                background-color: #ffb70f;
+                border-radius: 100%;
+                text-align: center;
+                text-decoration: none;
+                font-size: 18px;
+                color: #fff;
+            }
+        }
+        .resume-section {
+            background-color: $background-color_4;
+            padding: 7.5rem 0;
+            h2 {
+                font-size: 2.5rem;
+                line-height: 3.375rem;
+                width: 100%;
+                max-width: 80%;
+                margin: 0;
+            }
+            p {
+                color: $color_5;
+                font-size: 1rem;
+                line-height: 1.875rem;
+            }
+        }
+
+        .email-section {
+            padding: 80px 0;
+            background-color: #ffb70f;
+            text-align: center;
+            h2 {
+                font-size: 40px;
+                color: #fff;
+                margin-bottom: 30px;
+            }
+            a {
+                font-size: 18px;
+                font-weight: 500;
+                text-decoration: none;
+                color: #fff;
+                &:hover {
+                    color: #000;
+                    text-decoration: none;
+                }
+            }
+        }
+        
+    }
+}

@@ -1,1 +1,9 @@
-@import "home.scss"
+// Components
+@import "component/color.scss";
+@import "component/button.scss";
+@import "component/form.scss";
+@import "component/global.scss";
+@import "component/typography.scss";
+
+@import "home.scss";
+@import "coming-soon.scss";
